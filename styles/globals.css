@@ -19,3 +19,15 @@
 .nav-link-bg:hover {
   background-position: 100%;
 }
+
+.hero-bg {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('/hero.webp');
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
