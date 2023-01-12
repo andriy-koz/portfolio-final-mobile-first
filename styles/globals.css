@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  padding-bottom: 100px;
+}
+
 .nav-bg-gradient {
   background-image: radial-gradient(#22c55e, #86efac);
 }
@@ -30,4 +34,10 @@
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.subtitle-bg {
+  background-image: linear-gradient(to right, #22c55e, #86efac);
+  background-clip: text;
+  color: transparent;
 }
