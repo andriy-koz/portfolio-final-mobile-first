@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navigation from '../components/Navigation';
 import About from '../components/sections/About';
+import Features from '../components/sections/Features';
 import Hero from '../components/sections/Hero';
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <main>
         <About />
+        <Features />
       </main>
     </>
   );
