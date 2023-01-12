@@ -1,0 +1,88 @@
+{
+  "navOptions": [
+    "inicio",
+    "nosotros",
+    "cualidades",
+    "proyectos",
+    "historias",
+    "contacto"
+  ],
+  "features": [
+    {
+      "title": "Transforma tu negocio",
+      "img": "icon-globe.svg",
+      "content": "Sitio web profesional y atractivo diseñado especialmente para ti."
+    },
+    {
+      "title": "Aumenta tu visibilidad en línea",
+      "img": "icon-data.svg",
+      "content": "Atrae más clientes potenciales con un sitio web moderno y optimizado para motores de búsqueda."
+    },
+    {
+      "title": "Soluciones personalizadas",
+      "img": "icon-check.svg",
+      "content": "Para asegurar que tu sitio se adapte perfectamente a tus necesidades y objetivos de negocio."
+    },
+    {
+      "title": "Escala sin límites",
+      "img": "icon-reward.svg",
+      "content": "Software listo para escalar a medida que las necesidaes del negocio cambien y aumenten"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Bodega de vinos",
+      "list": [
+        "Amplia selección de vinos",
+        "Información sobre cada vino",
+        "Pago seguro y entrega rápida",
+        "Suscripciones o club de vinos"
+      ],
+      "img": "bg-card1"
+    },
+    {
+      "title": "Portfolio minimalista",
+      "list": [
+        "Proyectos destacados",
+        "Experiencia laboral relevante",
+        "Educación y formación académica",
+        "Habilidades técnicas"
+      ],
+      "img": "bg-card3"
+    },
+    {
+      "title": "Todo App",
+      "list": [
+        "Añadir nuevas tareas",
+        "Marcar tareas como completadas",
+        "Eliminar tareas",
+        "Filtrar las tareas visibles"
+      ],
+      "img": "bg-card2"
+    }
+  ],
+  "about": [
+    {
+      "title": "Soluciones que se ajustan a tus objetivos y presupuesto",
+      "content": "Nuestra agencia de desarrollo web ofrece servicios personalizados de diseño y desarrollo de sitios web a empresas y negocios de todos los tamaños."
+    },
+    {
+      "title": "Últimas tecnologías en diseño y desarrollo",
+      "content": "Ofrecemos una amplia gama de servicios, incluyendo diseño de sitios web personalizado, desarrollo de aplicaciones web, optimización de motores de búsqueda y marketing digital."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Carlos Martínez",
+      "title": "Una experiencia de primera clase",
+      "content": "Siempre estuvo dispuesto a trabajar con nosotros para entender nuestras necesidades y ofrecernos soluciones personalizadas. Siempre entregaron a tiempo y fueron un gran apoyo durante todo el proceso. ¡Muy recomendables!",
+      "img": "testimonial-man.webp"
+    },
+    {
+      "name": "Ana Rodríguez",
+      "title": "Trabajar con ellos fue un verdadero placer",
+      "content": "El equipo es muy profesional y siempre estuvo dispuesto a ayudarnos a alcanzar nuestras metas tecnológicas. La calidad del trabajo es excelente y el resultado superó nuestras expectativas. ¡Los elegiríamos de nuevo para futuros proyectos!",
+      "img": "testimonial-woman.webp"
+    }
+  ]
+}

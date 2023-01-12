@@ -5,3 +5,17 @@
 .nav-bg-gradient {
   background-image: radial-gradient(#22c55e, #86efac);
 }
+
+.nav-link-bg {
+  background-image: linear-gradient(
+    120deg,
+    transparent 0%,
+    transparent 50%,
+    #fff 50%
+  );
+  background-size: 220%;
+}
+
+.nav-link-bg:hover {
+  background-position: 100%;
+}

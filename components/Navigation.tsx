@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { navOptions } from '../data.json';
 
 const Navigation = () => {
   const [navOpened, setNavOpened] = useState(false);
@@ -6,7 +7,7 @@ const Navigation = () => {
   return (
     <>
       <div
-        className='h-16 w-16 rounded-full fixed top-6 right-6 bg-gray-100 z-40 group'
+        className='h-16 w-16 rounded-full fixed top-6 right-6 bg-gray-100 z-40 group hover:cursor-pointer'
         onClick={() => setNavOpened(prevState => !prevState)}>
         <div
           className={`w-8 h-[2px] bg-gray-500 mx-auto mt-8 rounded-3xl relative before:rounded-3xl before:absolute before:top-2 before:w-8 before:h-[2px] before:bg-gray-500 before:transition-all after:rounded-3xl after:absolute after:bottom-2 after:w-8 after:h-[2px] after:bg-gray-500 after:transition-all  ${
@@ -21,8 +22,21 @@ const Navigation = () => {
           navOpened && 'scale-[50]'
         }`}
       />
-      <nav className='fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
-        <ul></ul>
+      <nav
+        className={`fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-40 uppercase text-white text-3xl text-center transition-all inline-block ${
+          !navOpened && 'hidden'
+        }`}>
+        <ul className='space-y-3'>
+          {navOptions.map((item, i) => (
+            <li key={i}>
+              <a
+                href='#'
+                className='inline-block nav-link-bg transition-all duration-300 hover:translate-x-2 hover:text-green-500 px-2 py-1'>
+                {item}
+              </a>
+            </li>
+          ))}
+        </ul>
       </nav>
     </>
   );
